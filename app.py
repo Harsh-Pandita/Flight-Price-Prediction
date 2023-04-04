@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import os
 
-os.chdir(r"C:\Users\harsh\Downloads\Project\Capstone Project 2")
+os.chdir("/Users/harsh/Downloads/Project/Capstone Project 2")
 
 app = Flask(__name__)
 model = pickle.load(open("flight_rf.pkl", "rb"))
